@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+ padding: 20px 40px;
+}
+.class>img{
+margin-top: 40px;
+margin-left: 10px;
+width: 300px;
+height: 300px;
+border-radius: 100%;
+}
+.class h1{
+    color: orangered;
+    font-size: 3rem;
+    margin-left: 610px;
+    margin-top: -290px;
+    font-weight: bolder;
+}
+.class p{
+    margin-left: 610px;
+    margin-top:20px;
+    font-weight: bold;
+}
+.class button{
+    height: 30px;
+    width: 90px;
+    border: 0;
+    border-radius: 2px;
+    color: black;
+    background-color: orangered;
+    margin-left: 710px;
+    margin-top: 30px;
+}
+.glass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+
+.gla {
+    
+    background-color: orangered;
+    border: 5px solid orangered;
+    height: 290px;
+    width: 100%;
+    
+}
+.gla img{
+    width: 100px;
+    height: 90px;
+    border-radius: 100px;
+    margin-left: 50px;
+}
+
+.gla h1{
+    background-color: orangered;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.gla p{
+    background-color: orangered;
+    margin-left: 40px;
+}
+.gla button{
+    margin-top: 30px;
+    margin-left: 40px;
+  border-color: powderblue;
+    background-color: orangered;
+    height: 30px;
+    border-radius: 5px;
+}.gla a{
+    text-decoration: none;
+    background-color: orangered;
+    color: black;
+}
+.beef{
+ color: black;
+ background-color: black;
+ text-decoration: none;
+border: 5px solid red;
+width: 100%;
+height: 290px;
+background-color: red;
+}
+.beef img{
+    margin-left: 50px;
+    width: 100px;
+    height: 80px;
+    border-radius: 40px;
+}
+.beef h1{
+    font-weight: bolder;
+    text-decoration: none;
+background-color: red;
+margin-left: 40px;
+margin-top: 30px;
+}
+.beef p{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: red;
+    margin-left: 40px;
+}
+.beef button{
+    margin-top: 40px;
+    margin-left: 60px;
+    border-color: palevioletred;
+    background-color: red;
+    height:30px;
+    width: 90px;
+    border-radius: 5px;
+}
+.beef a{
+    text-decoration: none;
+    background-color: red;
+    color: black;
+}
+.feed{
+   
+    background-color: crimson;
+    border: 5px solid crimson;
+    width: 100%;
+    height: 290px;
+}
+.feed img{
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+    margin-left: 70px;
+}
+.feed h1{
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: crimson;
+    margin-left: 40px;
+}
+.feed h1{
+    text-decoration: none;
+    color: black;
+}
+.feed p{
+    background-color: crimson;
+}
+.feed button{
+   margin-left: 60px; 
+   margin-top: 70px;
+   height: 30px;
+   width: 90px;
+border-color: darkred;
+   background-color: crimson;
+    border-radius: 5px;
+}
+.feed a{
+color: black;
+text-decoration: none;
+text-align: center;
+}
+.glass{
+    margin-top: 290px;
+}
+@media screen and (max-width:480px) {
+ body{
+    background-color: purple;
+
+  align-content: center;
+   } 
+   .class img{
+    height: 290px;
+   
+   }
+   .class h1{
+    margin-top: 70px;
+ margin-left: -3px;
+ margin-left: 15px;
+   }
+   .class p{
+    margin-left: -1px;
+    margin-left: 15px;
+   }
+   .class button{
+    margin-left: -3px;
+    margin-left: 30px;
+   }
+
+   .class{
+    display: flex;
+    flex-direction: column;
+   }
+   .glass{
+width: 100%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+   }
+   .class img{
+    width: 100%;
+   }
+}
+@media (min-width:481px) and (max-width:768px){
+   body{
+    background-color: dodgerblue;
+   }
+ 
+   .class img{
+  
+    height: 290px;
+   }
+.class h1{
+    margin-top: 70px;
+    margin-left: -3px;
+    margin-left: 15px;
+}
+
+.glass{
+   
+    width: 100%;
+    display: flex;
+flex-direction: row;
+}
+.class p{
+    margin-left: -1px;
+    margin-left: 15px;
+   }
+   .class button{
+    margin-left: -3px;
+    margin-left: 30px;
+   }
+
+   .class{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+}
